@@ -55,3 +55,5 @@ We accessed publicly available 2021 BRFSS data, containing 279 variables across 
 * [Notebook/Markdown/Slide Deck Title](link)
 * [Notebook/Markdown/Slide DeckTitle](link)
 * [Blog Post](link)
+
+<span style="color:blue">some *blue* text</span>.
