@@ -1,7 +1,7 @@
 # Risk prediction for diabetes
 This project is a part of the Data Science Working Group at Code for CoderHouse DataScience Course.
 
-#### -- Project Status: [Active](+Active)
+#### -- Project Status: [Active]
 
 ## Project Intro/Objective
 The purpose of this project is generate a ML stacking model that predict the risk of diabetes on a certain population, also, we what to show diferent habilities in data science, such us Mining, Wrangling, Cleaning, Dataset description, ML training, ML analisis.
