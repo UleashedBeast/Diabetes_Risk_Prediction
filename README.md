@@ -1,26 +1,26 @@
-# Proyecto de Predicción de Diabetes
+# Diabetes Prediction Project
 
-Este proyecto tiene como objetivo desarrollar un modelo de Machine Learning para la predicción de diabetes utilizando el conjunto de datos del BRFSS (Behavioral Risk Factor Surveillance System) del 2021, proporcionado por los Centros para el Control y la Prevención de Enfermedades (CDC) de los Estados Unidos.
+This project aims to develop a Machine Learning model for diabetes prediction using the 2021 Behavioral Risk Factor Surveillance System (BRFSS) dataset provided by the Centers for Disease Control and Prevention (CDC) of the United States.
 
-## Descripción del Proyecto
+## Project Description
 
-El BRFSS Survey Data and Documentation del 2021 es una valiosa fuente de información sobre los factores de riesgo de salud y los comportamientos relacionados en la población. En este proyecto, utilizamos este conjunto de datos para desarrollar un modelo de predicción de diabetes.
+The BRFSS Survey Data and Documentation for 2021 is a valuable source of information on health risk factors and related behaviors in the population. In this project, we utilize this dataset to develop a diabetes prediction model.
 
-El proyecto se divide en las siguientes etapas:
+The project is divided into the following stages:
 
-1. **Exploración de Datos**: Realizamos una exploración en profundidad de los datos, analizando las diferentes características disponibles, identificando relaciones y patrones relevantes, y comprendiendo la distribución de la variable objetivo (diabetes).
+1. **Data Exploration**: We conduct in-depth data exploration, analyzing the different available features, identifying relevant relationships and patterns, and understanding the distribution of the target variable (diabetes).
 
-2. **Preprocesamiento de Datos**: Realizamos el preprocesamiento de los datos para garantizar su calidad y prepararlos para el modelado. Esto incluye la limpieza de datos, el manejo de valores faltantes, la codificación de variables categóricas y la normalización de características.
+2. **Data Preprocessing**: We perform data preprocessing to ensure data quality and prepare it for modeling. This includes data cleaning, handling missing values, encoding categorical variables, and normalizing features.
 
-3. **Modelado y Evaluación**: Utilizamos técnicas de Machine Learning para entrenar y evaluar varios modelos de predicción de diabetes. Exploramos algoritmos como Regresión Logística, Árboles de Decisión, Random Forest y otros modelos basados en ensamblajes.
+3. **Modeling and Evaluation**: We employ Machine Learning techniques to train and evaluate various diabetes prediction models. We explore algorithms such as Logistic Regression, Decision Trees, Random Forest, and other ensemble-based models.
 
-4. **Análisis e Interpretación de Resultados**: Analizamos los resultados del modelo y evaluamos su rendimiento utilizando métricas de evaluación apropiadas para problemas de clasificación. Interpretamos las características más relevantes y comprendemos cómo contribuyen a la predicción de diabetes.
+4. **Analysis and Interpretation of Results**: We analyze the model results and evaluate its performance using appropriate evaluation metrics for classification problems. We interpret the most relevant features and understand how they contribute to diabetes prediction.
 
-5. **Documentación y Compartir Resultados**: Proporcionamos documentación clara sobre el proyecto, incluyendo instrucciones para ejecutar el código, una descripción de las características utilizadas en el modelo y las principales conclusiones obtenidas. Además, compartimos el código y los datos en un repositorio de GitHub para que estén disponibles y sean accesibles para otros usuarios interesados.
+5. **Documentation and Sharing of Results**: We provide clear documentation on the project, including instructions for running the code, a description of the features used in the model, and the key findings. Additionally, we share the code and data in a GitHub repository to make them available and accessible to other interested users.
 
-## Requisitos del Proyecto
+## Project Requirements
 
-El proyecto se desarrolla en Python y se recomienda tener instaladas las siguientes bibliotecas:
+The project is developed in Python, and it is recommended to have the following libraries installed:
 
 - Pandas
 - NumPy
@@ -28,14 +28,13 @@ El proyecto se desarrolla en Python y se recomienda tener instaladas las siguien
 - Matplotlib
 - Jupyter Notebook
 
-Puede utilizar el archivo "requirements.txt" proporcionado en este repositorio para instalar todas las dependencias necesarias mediante el siguiente comando:
+You can use the provided "requirements.txt" file to install all the necessary dependencies using the following command:
 
 pip install -r requirements.txt
 
+## Folder Structure
 
-## Estructura de Carpetas
-
-La estructura de carpetas de este proyecto es la siguiente:
+The folder structure of this project is as follows:
 
 data/
 
@@ -64,15 +63,15 @@ requirements.txt
 
 .gitignore
 
+## Contributions
 
-## Contribuciones
+Contributions to this project are welcome! If you wish to contribute, please follow the best development practices and submit pull requests with clear descriptions of the changes made.
 
-¡Las contribuciones a este proyecto son bienvenidas! Si deseas contribuir, asegúrate de seguir las mejores prácticas de desarrollo y enviar solicitudes de extracción con descripciones claras de los cambios realizados.
+We hope this project proves useful in predicting diabetes using the 2021 BRFSS dataset. If you have any questions or comments, please feel free to contact us.
 
-Esperamos que este proyecto sea útil y ayude a predecir la diabetes utilizando el conjunto de datos del BRFSS del 2021. Si tienes alguna pregunta o comentario, no dudes en contactarnos.
+Thank you for your interest in this project!
 
-¡Gracias por tu interés en este proyecto!
+Remember to customize the content based on the specific details of your project. This presentation provides an overview of the project, highlights the key stages and important components, and indicates how users can contribute. Make sure to include relevant links, such as to documentation or additional resources, so that users can find more information.
 
-Recuerda personalizar el contenido según los detalles específicos de tu proyecto. Esta presentación proporciona una descripción general del proyecto, resalta las etapas clave y los componentes importantes, e indica cómo los usuarios pueden contribuir. Asegúrate de incluir enlaces relevantes, como a la documentación o los recursos adicionales, para que los usuarios puedan obtener más información.
+Good luck with your diabetes prediction project!
 
-¡Buena suerte con tu proyecto de predicción de diabetes!
